@@ -1,0 +1,23 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.todoLists {
+  width: 400px;
+  margin:0 auto;
+}
+.todoLists li {
+  display: flex;
+  gap: 10px;
+  margin-top:1rem;
+
+}
+.todoLists button {
+  margin-left: auto;
+}
+
+.completed div {
+  text-decoration: line-through;
+}
