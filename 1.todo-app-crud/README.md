@@ -9,4 +9,9 @@ npm install
 npm install -D sass
 
 ```
-    
+
+- CRUD
+- 검색(Search)
+- 필터(All / Todo / Done)
+- LocalStorage 저장
+- SCSS Modules    
