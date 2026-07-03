@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "emotionId": 1,
+        "createdAt": "2026-06-12",
+        "content":"금요일은 대청소를 했다"
+    },
+    {
+        "id": 2,
+        "emotionId": 2,
+        "createdAt":"2026-06-13",
+        "content":"비가오는 날이다"
+    },
+    {
+        "id": 3,
+        "emotionId": 3,
+        "createdAt": "2026-06-14",
+        "content":"주말이다"
+    }
+]

@@ -1,0 +1,20 @@
+.Header {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;;
+    border-bottom:1px solid #ddd;
+    padding: 20px 0;
+}
+.header_title {
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+.header_left,
+.header_right {
+    width: 25%
+}
+
+.header_right {
+    display: flex;
+    justify-content: flex-end;
+}
