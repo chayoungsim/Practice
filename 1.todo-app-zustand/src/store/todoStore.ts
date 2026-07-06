@@ -17,7 +17,7 @@ interface TodoState {
 
 export const useTodoStore = create<TodoState>()(
     persist(
-        (set) => ({
+          (set) => ({
           todos: [],
      
           addTodo: (text: string) =>

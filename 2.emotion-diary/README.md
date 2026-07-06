@@ -87,3 +87,37 @@ export default App
 
 ### Zustand에서 persist 미들웨어 사용
 persist 미들웨어를 사용하면 새로고침을 해도 상태(State)가 사라지지 않고 LocalStorage나 SessionStorage에 안전하게 저장됩니다.
+
+### void
+void는 "이 함수는 반환(return)하는 값이 없다."는 의미입니다.
+결과를 돌려주는 것이 목적이 아니라, 어떤 동작을 수행하는 것이 목적일 때 사용합니다.
+버튼 클릭,삭제,추가,상태 변경,콘솔 출력
+API 호출, 상태 변경, 페이지 이동
+이처럼 이벤트 핸들러는 대부분 void를 반환합니다.
+
+```
+// number반환 : 반환값 30
+function add(a: number, b: number): number {
+  return a + b;
+}
+
+// string  : 반환값 Sim
+function getName(): string {
+  return "Sim";
+}
+
+// void반환 : 반환값 undefined
+function printName(): void {
+  console.log("Sim");
+}
+
+```
+```
+const handleDelete = (id: number): void => {
+  setTodos((prev) => prev.filter((todo) => todo.id !== id));
+};
+```
+void는 함수의 반환 타입을 나타냅니다.
+undefined는 실제 값(value)입니다.
+데이터를 계산해서 돌려준다 → number, string, boolean, Todo[] 등 구체적인 타입을 반환
+동작만 수행한다(이벤트 처리, 상태 변경, API 호출 등) → void

@@ -1,0 +1,48 @@
+.weather-box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  width: 240px;
+  padding: 24px 16px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  color: var(--text-h);
+
+  .close-button {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    border: none;
+    background: transparent;
+    color: var(--text-h);
+    font-size: 16px;
+    line-height: 1;
+    cursor: pointer;
+    padding: 4px;
+
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+
+  .weather-status {
+    padding: 24px 0;
+  }
+
+  .weather-icon {
+    width: 80px;
+    height: 80px;
+  }
+
+  .city {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .temp {
+    font-size: 18px;
+    font-weight: 600;
+  }
+}
