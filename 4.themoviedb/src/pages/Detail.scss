@@ -1,0 +1,66 @@
+.detail-backdrop {
+    width: 100%;
+    aspect-ratio: 16/6;
+    background-size: cover;
+    background-position: center top;
+}
+
+.detail-content {
+    display: flex;
+    gap: 3rem;
+    padding: 3rem 2rem;
+    flex-wrap: wrap;
+}
+
+.detail-poster {
+    flex: 0 0 24rem;
+    max-width: 24rem;
+
+    img {
+        width: 100%;
+        aspect-ratio: 2/3;
+        object-fit: cover;
+        border-radius: 1rem;
+    }
+}
+
+.detail-info {
+    flex: 1 1 30rem;
+
+    .tagline {
+        color: #888;
+        font-style: italic;
+    }
+
+    .meta {
+        margin: 1rem 0;
+    }
+
+    .genres {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        margin-bottom: 1.5rem;
+
+        li {
+            padding: 0.4rem 1.2rem;
+            border-radius: 999px;
+            background: #eee;
+            font-size: 1.3rem;
+        }
+    }
+
+    .overview {
+        line-height: 1.6;
+    }
+}
+
+@media (max-width: 640px) {
+    .detail-content {
+        flex-direction: column;
+    }
+
+    .detail-poster {
+        max-width: 16rem;
+    }
+}

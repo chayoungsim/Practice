@@ -1,8 +1,8 @@
 # Practics
 
-- [ ]  Todo App - zustand
-- [ ]  감정일기
-- [ ]  날씨 API,
+- [v]  Todo App - zustand
+- [v]  감정일기
+- [v]  날씨 API,
 - [ ]  영화 검색(API),
 - [ ]  GitHub 사용자 검색
 - [ ]  쇼핑몰
